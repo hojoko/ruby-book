@@ -8,8 +8,7 @@ def fizz_buzz(n)
   elsif n % 5 == 0
     'Buzz'
   else
-    n
+    n.to_s
   end
 end
 
-(0..15).each { |i| puts fizz_buzz(i) } 
